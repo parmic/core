@@ -1,0 +1,21 @@
+{
+    "name": "parmic/yii2-parmic-core",
+    "description": "This extension change models",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","model as array"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "dmalykh",
+            "email": "mdv@mdv.me"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "parmic\\core\\": ""
+        }
+    }
+}
